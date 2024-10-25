@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
 
@@ -12,3 +12,14 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route('/services')
+def services():
+    return render_template('services.html')
+
+@app.route('/blogs')
+def blogs():
+    return render_template('blog.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
