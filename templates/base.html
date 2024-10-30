@@ -68,22 +68,19 @@
         <ul>
           <li><a href="{{url_for('index')}}" class="active">Home</a></li>
           <li><a href="{{url_for('about')}}">About Us</a></li>
-          <li><a href="{{url_for('services')}}">Our Services</a></li>
-          <li><a href="{{url_for('blogs')}}">Blog</a></li>
-          <!-- <li class="dropdown">
-            <a href="#"><span>Resources</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <li class="dropdown">
+            <a href="{{url_for('services')}}"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="#">Case Studies</a></li>
-              <li><a href="#">Webinars</a></li>
-              <li><a href="#">Guides</a></li>
-              <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">FAQs</a></li>
-                  <li><a href="#">Help Center</a></li>
-                </ul>
-              </li>
+              <li><a href="{{url_for('services')}}">Travel and Tour</a></li>
+              <li><a href="{{url_for('services')}}">Transprt and Logistics</a></li>
+              <li><a href="{{url_for('services')}}">Coporate Travel</a></li>
+              <li><a href="{{url_for('services')}}">School and NGO Trsport</a></li>
+              <li><a href="{{url_for('services')}}">Religious Transport</a></li>
+              
             </ul>
-          </li> -->
+          </li>
+          <li><a href="{{url_for('fleet')}}">Fleet</a></li>
+          
           <li><a href="{{url_for('contact')}}">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -148,8 +145,8 @@
               <li><a href="{{url_for('index')}}">Home</a></li>
               <li><a href="{{url_for('about')}}">About Us</a></li>
               <li><a href="{{url_for('services')}}">Services</a></li>
-              <!-- <li><a href="#">Terms of Service</a></li>
-              <li><a href="#">Privacy Policy</a></li> -->
+              <li><a href="{{url_for('fleet')}}">Fleet</a></li>
+              <li><a href="{{url_for('contact')}}">Book Now</a></li>
             </ul>
           </div>
 
