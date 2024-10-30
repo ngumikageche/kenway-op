@@ -16,9 +16,9 @@ def about():
 def services():
     return render_template('services.html')
 
-@app.route('/blogs')
-def blogs():
-    return render_template('blog.html')
+@app.route('/fleet')
+def fleet():
+    return render_template('fleet.html')
 
 @app.route('/contact')
 def contact():
